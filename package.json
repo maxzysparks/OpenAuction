@@ -1,0 +1,37 @@
+{
+    "name": "open-auction",
+    "version": "1.0.0",
+    "description": "Custom Celo Composer project.",
+    "private": true,
+    "author": "Celo",
+    "license": "MIT",
+    "scripts": {
+        "react-app:dev": "yarn workspace @open-auction/react-app dev",
+        "react-app:build": "yarn workspace @open-auction/react-app build",
+        "react-app:start": "yarn workspace @open-auction/react-app start",
+        "react-app:lint": "yarn workspace @open-auction/react-app lint",
+        "hardhat:test": "yarn workspace @open-auction/hardhat test",
+        "hardhat:test-local": "yarn workspace @open-auction/hardhat test-local",
+        "hardhat:accounts": "yarn workspace @open-auction/hardhat accounts",
+        "hardhat:devchain": "yarn workspace @open-auction/hardhat devchain",
+        "hardhat:deploy": "yarn workspace @open-auction/hardhat deploy",
+        "hardhat:deploy-reset-watch": "yarn workspace @open-auction/hardhat deploy-reset-watch",
+        "hardhat:watch": "yarn workspace @open-auction/hardhat watch",
+        "hardhat:fork-mainnet": "yarn workspace @open-auction/hardhat fork-mainnet"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/celo-org/celo-composer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/celo-org/celo-composer/issues"
+    },
+    "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "celo-composer",
+        "celo"
+    ]
+}
